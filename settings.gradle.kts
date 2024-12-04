@@ -1,4 +1,4 @@
-rootProject.name = "Foodium-KMM"
+rootProject.name = "Karakalpak-National-Foods"
 
 include(":androidApp")
 include(":shared")
