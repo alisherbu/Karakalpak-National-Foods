@@ -19,7 +19,6 @@ import data.model.Post
 import io.ktor.client.HttpClient
 import io.ktor.client.request.get
 import io.ktor.client.statement.bodyAsText
-import kotlinx.serialization.decodeFromString
 import kotlinx.serialization.json.Json
 
 class PostRemoteDataSource(private val httpClient: HttpClient) {
@@ -30,7 +29,7 @@ class PostRemoteDataSource(private val httpClient: HttpClient) {
     }
 
     companion object {
-        private const val BASE_URL = "https://patilshreyas.github.io"
-        private const val GET_ALL_POSTS_URL = "$BASE_URL/DummyFoodiumApi/api/posts/"
+        private const val BASE_URL = "https://dummyjson.com"
+        private const val GET_ALL_POSTS_URL = "$BASE_URL/c/0e5a-1624-451c-95eb/"
     }
 }

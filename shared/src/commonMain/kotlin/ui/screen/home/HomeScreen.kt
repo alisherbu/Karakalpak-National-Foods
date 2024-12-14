@@ -94,7 +94,7 @@ fun HomeContent(
 @Composable
 private fun HomeAppBar() {
     TopAppBar(
-        title = { Text("Foodium") },
+        title = { Text("Milliy Taǵamlar") },
         backgroundColor = Color.Black,
         actions = {
             val controller = LocalUiModePreferenceController.current
